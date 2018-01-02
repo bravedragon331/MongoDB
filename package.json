@@ -1,0 +1,50 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tony/tony.git"
+  },
+  "author": "Tony",
+  "license": "MIT",
+  "scripts": {
+    "start": "node my.js",
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.1",
+    "chalk": "~2.3.0",
+    "compression": "~1.7.0",
+    "connect-mongo": "~2.0.0",
+    "dotenv": "~4.0.0",
+    "ejs": "~2.5.7",
+    "errorhandler": "~1.5.0",
+    "express": "~4.16.2",
+    "express-validator": "~4.3.0",
+    "moment": "~2.19.2",
+    "mongoosastic": "~4.3.0",
+    "mongoose": "~4.13.0",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "chai": "~4.1.1",
+    "eslint": "~4.11.0",
+    "eslint-config-airbnb-base": "~12.1.0",
+    "eslint-plugin-import": "~2.8.0",
+    "mocha": "~4.0.1",
+    "nodemon": "~1.12.0",
+    "sinon": "~4.1.1",
+    "sinon-mongoose": "~2.0.2",
+    "supertest": "~3.0.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "rules": {
+      "func-names": [
+        "error",
+        "never"
+      ]
+    }
+  }
+}
